@@ -2,13 +2,13 @@
 
 # типы данных и переменная
 # int, float, boolean, str, list, None
-value = None
+# value = None
 # print(type(value))
-a = 123
-b = 1.23
+# a = 123
+# b = 1.23
 # print(type(a))
 # print(type(b))
-value = 123455
+# value = 123455
 # print(type(value))
 
 # s = 'hello \nworld'
@@ -107,16 +107,16 @@ value = 123455
 
 # Немного о строках
 
-text = 'съешь ещё этих мягкий французский булок'
+# text = 'съешь ещё этих мягкий французский булок'
 
-print(len(text))                  # 39
-print('ещё' in text)              # True
-print(text.isdigit())             # False
-print(text.islower())             # True
-print(text.replace('ещё', 'ЕЩЁ'))
+# print(len(text))                  # 39
+# print('ещё' in text)              # True
+# print(text.isdigit())             # False
+# print(text.islower())             # True
+# print(text.replace('ещё', 'ЕЩЁ'))
 
-for c in text:
-    print(c)
+# for c in text:
+#     print(c)
 
 
 # Срезы
@@ -138,31 +138,31 @@ for c in text:
 
 # Списки
 
-numbers = [1, 2, 3, 4, 5]
-print(numbers)                        # [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
+# print(numbers)                        # [1, 2, 3, 4, 5]
 
-numbers = list(range(1, 6))
-print(numbers)                        # [1, 2, 3, 4, 5]
+# numbers = list(range(1, 6))
+# print(numbers)                        # [1, 2, 3, 4, 5]
 
-numbers[0] = 10
-print(numbers)                        # [10, 2, 3, 4, 5]
+# numbers[0] = 10
+# print(numbers)                        # [10, 2, 3, 4, 5]
 
-for i in numbers:
-    i *= 2
-    print(i)                          # [20, 4, 6, 8, 10]
-print(numbers)                        # [10, 2, 3, 4, 5]
+# for i in numbers:
+#     i *= 2
+#     print(i)                          # [20, 4, 6, 8, 10]
+# print(numbers)                        # [10, 2, 3, 4, 5]
 
 
-colors = ['red', 'green', 'blue']
-for e in colors:
-    print(e) # red green blue
+# colors = ['red', 'green', 'blue']
+# for e in colors:
+#     print(e) # red green blue
 
-for e in colors:
-    print(e*2) # redred greengreen blueblue
+# for e in colors:
+#     print(e*2) # redred greengreen blueblue
 
-colors.append('gray') # добавить в конец
-print(colors == ['red', 'green', 'blue', 'gray']) # True
-colors.remove('red') #del colors[0] # удалить элемент
+# colors.append('gray') # добавить в конец
+# print(colors == ['red', 'green', 'blue', 'gray']) # True
+# colors.remove('red') #del colors[0] # удалить элемент
 
 
 # Функции
